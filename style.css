@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 0px;
+}
+
+.football-pitch {
+  width: 100%;
+  height: 68%;
+  position: absolute;
+  border: 3px solid greenyellow hidden;
+  font-size: 0px;
+  display: flex; /* zamiast tego moze być inline-block w dwoch niżej */
+}
+.sector-home {
+  width: 50%;
+  height: 100%;
+
+  border: 2px solid red;
+}
+
+.sector-away {
+  width: 50%;
+
+  border: 2px solid blue;
+  height: 100%;
+}
+.first {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  background-color: darkgreen;
+}
+.second {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  background-color: darkolivegreen;
+}
+
+.players {
+  position: absolute;
+  top: 68%;
+  width: 100%;
+  height: 32%;
+  border: 2px solid violet;
+}
